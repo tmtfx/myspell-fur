@@ -1,0 +1,64 @@
+Myspell al è un coretôr ortografic creât par OpenOffice (www.openoffice.org), un
+pachet di programs pal ufici (word processor, sfuei di calcul, editor di
+presentazions e v.i) libar e disponibil par plui sistemis operatîfs. Il stes
+coretôr ortografic al è doprât ancje di cualchi altri program, come Thunderbird
+(http://www.mozilla.org), un program di pueste eletroniche ancje chest libar e
+multi-plateforme. 
+La instalazion dal dizionari Furlan e à di jessi tornade a fâ par ogni program
+che al dopre myspell e magari cussì no, par ogni program il mût di procedi al è
+diferent (di fonde si à di copiâ i file dal dizionari in une cualchi directory
+dal program e podopo configurâ il program par abilitâ la corezion ortografiche
+par Furlan). 
+A vegnin daûr lis istruzions par instalâlu in:
+	* OpenOffice
+	* Thunderbird
+
+   Instalazion par OpenOffice
+  ----------------------------
+1- Inviâ une cualsisei aplicazion di OpenOffice (es. Writer), de bare dai menù 
+   selezionâ:  Strumenti->Opzioni->OpenOffice.org->percorsi 
+   (te version inglese Tools->Options->OpenOffice.org->Paths)
+   Cjapâ note dal percors relatîf ae vôs Linguistica (Writing Aids) e sierâ
+   dutis lis aplicazions di OpenOffice inviadis, in Windows sierâ ancje la
+   eventuâl iconute cui cocâi che si cjate te System Tray tal cjanton in bas a
+    drete dongje dal orloi. 
+   Il percors di default par versions di OpenOffice prin de 1.0.1 al è
+   <Directory di instalazion di OpenOffice>/usr/wordbook/
+   par versions plui resints al è 
+   <Directory di instalazion di OpenOffice>/share/dict.
+
+2- Scompatâ il file dal dizionari te directory 
+      - <Percors cjatât>      in câs di version prin de 1.0.1
+      - <Percors cjatât>/ooo  in câs contrari
+
+3- Vierzi cuntun editor di tescj il file dictionary.lst che al varès bielzà di
+   jessi te directory nomenade parsore, câs contrari si à di creâlu. Zontâ al 
+   file cheste rie: 
+                DICT fr FR fur_IT
+   e salvâ.
+   Note impuartant: OpenOffice al permet di doprâ dizionaris dome par une liste 
+   di lenghis predefinidis e magari cussì no, il Furlan nol (ancjemò) includût.
+   Par risolvi il probleme, si à brie nome di impleâ une lenghe ricognossude dal
+   program tant che imprestenon pal Furlan.
+   La rie zontade difat al assegne il dizionari furlan (fur_IT) al francês (fr)
+   di France (FR),  sielzût par vie che la sigle e sune tant Friûl.
+   Se però si dopre bielzà un dizionari francês, baste specificâ une altre
+   lenghe libare, par esempli par sielzi l'Afrikaans, la prime lenghe te liste, 
+   si à di scrivi:  DICT af ZA fur_IT
+
+4- Tornâ a vierzi une aplicazion di OpenOffice e selezionâ 
+   Strumenti->Opzioni->Impostazioni Lingua->Lingue 
+   (Tools->Options->Language settings->Languages )
+   Come 'Lingua Standard dei documenti' selezionâ de liste la lenghe imprestenon.
+   Passâ ae sezion Linguistica (Writing Aids) che si cjate simpri sot la vôs 
+   Impostazioni Lingua (Language Settings) e cjalcjâ il boton Modifica (Edit) a 
+   drete de sotsezion 'Moduli linguistici disponibili'. Tal gnûf balcon che si
+   vierç selezionâ de liste la lenghe imprestenon e ativâ, se no je bielzà 
+   ativade, la casele dal control ortografic. 
+
+
+  Instalazion par Thunderbird
+ -----------------------------
+1- Copiâ i file fur-IT.aff e fur-IT.dic che a son tal file zip in
+   bin/components/myspell te directory di instalazion di Thunderbird.
+2- Cuant che si fâs il control ortografic te balconute che e ven fûr sielzi come lenghe fur_IT.
